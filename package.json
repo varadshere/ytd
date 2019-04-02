@@ -1,0 +1,19 @@
+{
+  "name": "node-fuel-server",
+  "version": "1.0.0",
+  "description": "Node server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Varad Shere",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "4.16.4",
+    "express-http-proxy": "^1.5.1",
+    "morgan": "1.9.1",
+    "path": "^0.12.7"
+  }
+}
